@@ -1,0 +1,13 @@
+
+circle{
+    fill-opacity: .9;
+}
+line{
+    stroke:#ba3737;
+    stroke-opacity:0.6;
+}
+.title{
+    font-size: large;
+    font-family: sans-serif;
+    stroke:darkred;
+}

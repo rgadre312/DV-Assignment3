@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DV Major Assignment 3-PartB</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="network.js?1"></script>
+    
+
+</head>
+<body>
+<script>
+    d3.json("publication_data.json").then(data=>{
+        let svg = d3.select('body').append("svg").attr("viewBox","0 0 1000 1000")
+        console.log(data)
+        simulate(data,svg) 
+    })
+
+</script>
+
+</body>
+</html>
